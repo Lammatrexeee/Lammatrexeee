@@ -12,7 +12,7 @@ end
 function CheckKey()
     if sf_key == KeyInput then
         Destroy()
-        local OrionLib = loadstring(game:HttpGet(('https://github.com/Lammatrexeee/Silent-Aim-Aimblox')))()
+        local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/Lammatrexeee/Silent-Aim-Aimblox/main/Aimblox%20Script.lua?token=GHSAT0AAAAAABYS5IJT2DRZEAEIV2J3PR56YY3ORAQ')))()
         local Window = OrionLib:MakeWindow({Name = "Silent Aim Aimblox", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
     end
 end
